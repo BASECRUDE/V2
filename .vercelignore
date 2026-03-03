@@ -1,0 +1,25 @@
+# dependencies / build
+node_modules
+.next
+dist
+build
+
+# local env
+.env
+.env.*
+!.env.example
+
+# local/editor artifacts
+.vscode
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# debug and scratch files not needed for deployment
+debug*
+*.b64
+image.html
+view.html
+index.html
+scripts/
